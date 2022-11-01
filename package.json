@@ -1,0 +1,28 @@
+{
+    "name": "teolab",
+    "version": "1.0.0",
+    "description": "台灣光電官網",
+    "main": "gulpfile.js",
+    "scripts": {
+        "watch": "gulp watch",
+        "build": "gulp --target public",
+        "local_preview": "netlify dev -d public",
+        "deploy_preview": "netlify dev --live -d public",
+        "deploy": "netlify deploy -d public",
+        "deploy_prod": "netlify deploy --prod -d public"
+    },
+    "author": "exinfinite.chen <exinfinite_chen@ticgroup.com.tw>",
+    "license": "MIT",
+    "devDependencies": {
+        "csvtojson": "^2.0.10",
+        "del": "^6.0.0",
+        "extract-zip": "^2.0.1",
+        "gulp": "^4.0.2",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-jsdom": "^1.1.0",
+        "recursive-copy": "^2.0.13",
+        "toml": "^3.0.0",
+        "yarg": "^1.0.8"
+    },
+    "dependencies": {}
+}

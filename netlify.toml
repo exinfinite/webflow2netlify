@@ -1,0 +1,19 @@
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     X-Robots-Tag = "index, follow"
+[[redirects]]
+  from = "/*"
+  to = "home.html"
+  status = 200
+
+################################
+[dev]
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     X-Robots-Tag = "index, follow"
+[[redirects]]
+  from = "/*"
+  to = "home.html"
+  status = 200
